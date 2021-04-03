@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kss.AudioRecordUploader">
+    package="com.kss.AudioRecordUploaderCMSM">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -24,7 +24,7 @@
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.kss.AudioRecordUploaderCMSM.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,10 +32,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".UploaderActivity" />
+        <activity android:name="com.kss.AudioRecordUploaderCMSM.UploaderActivity" />
 
         <receiver
-            android:name=".receiver.CallReceiver"
+            android:name="com.kss.AudioRecordUploaderCMSM.receiver.CallReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AudioRecordUploader</string>
+    <string name="app_name">AudioRecordUploader CMSM</string>
     <string name="agent_mobile_no">Agent Mobile No</string>
     <string name="agent_email">Agent Email</string>
     <string name="submit">Submit</string>

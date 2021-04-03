@@ -6,7 +6,7 @@ android {
 
     viewBinding.enabled = true
     defaultConfig {
-        applicationId "com.kss.AudioRecordUploader"
+        applicationId "com.kss.AudioRecordUploaderCMSM"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
